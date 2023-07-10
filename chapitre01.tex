@@ -1,0 +1,59 @@
+%This is chapter 1
+%%=========================================
+
+\rhead{\itshape Introduction Général}
+ \lhead{}
+ \cfoot{ \thepage}
+  \pagestyle{fancy}
+\renewcommand{\headrulewidth}{0.4pt}
+
+
+\chapter*{Introduction Générale}
+\mark{IINTRODUCTION G\'EN\'ERALE}
+\addcontentsline{toc}{chapter}{Introduction générale}
+%%=========================================
+\section*{Contexte du travail}
+L’Internet des Objets ou Internet of things (IoT) se définit comme un réseau mondial de services interconnectés et d’objets intelligents de toutes natures destinés à soutenir les humains dans les activités de la vie quotidienne grâce à leurs capacités de détection, de calcul et de communication. Leur aptitudes à observer le monde physique et à fournir des informations pour la prise de décision, seront partie intégrante de l’architecture de l’Internet du futur. Ces objets doivent s’intégrer dans un système plus global qu’est le monde digital et s’y adapter. L’IoT comprend une grande diversité de dispositifs intégrants capteurs et actuateurs. Le monde réel et numérique tend vers une plus grande osmose. Les composants logiciels et les objets physiques sont profondément corrélés, interagissant entre eux et avec les utilisateurs. Via les capteurs, l’IoT observe, mesure l’état du monde réel, ce qui est essentiel pour la prise de décision. Via les actuateurs, l’IoT agit sur le monde réel. Elle doit s’intégrer dans un système plus global qu’est l’écosystème digital. 
+
+Actuellement, nous ne pouvons pas intégrer un objet connecté dans une société d’objets (écosystème digital) de manière flexible, car il nécessite une configuration difficile, et la présence d’un groupe d’objets connectés les uns aux autres ne signifie pas qu’ils constituent une société qui travaille pour atteindre des objectifs et des intérêts individuels et collectifs commun et cela est dû à l’interopérabilité et les différentes structures et protocoles qui composent les objets. 
+
+\section*{Problématique et objectifs}
+ L’interaction des éléments de cet écosystème digital entre eux et le sensing du monde physique par transformation des états d’une grandeur physique observée en une grandeur utilisable, pour le stockage et le traitement numériques, ce qui produit une énorme quantité des données (Big-data). Les ressources et les capacité de stockage et de traitement limitées des objets ne parviennent pas à gérer cette quantité des données, ce besoin en matière de stockage et de traitement de grande masse de données est pris en charge par l’infrastructure de calcul via le cloud.
+ 
+ Actuellement, la capacité limitée du réseau internet (la bande passante) pour transmettre  cette quantité des informations représente un problème majeur, en attendant le lancement de la technologie de cinquième génération (5G) d’internet et sa couverture du monde, nous proposons d’autres solutions pour réduire la pression sur le réseau en laisant l’objet en partie traitant des données et en utilisant Edge et Fog computing . Nous proposons une approche de coopération entre objets au niveau du réseau local de l’écosystème, ce modèle est basé sur le paradigme agents coopératifs intégrés dans les couches existantes de l’objet.
+\section*{Contributions}
+Pour répondre à la problématique décrite précédemment, notre thèse apporte les propositions suivant :
+
+\begin{itemize}
+    \item [•] Proposition d’une approche IoT basée sur les systèmes multi-agents pour l'intelligence ambiante,  En effet, le système proposé est basé sur un système multi-agents (situé et mobile), en gardant l’avantage offert par ce paradigme et afin de maintenir le problème de communication entre les objets (IoT).
+ \item [•]	Nous allons proposer une extension "Ambiance Intelligence Approach Using IoT and Multi-Agent System"  en quatre couches. En particulier, nous avons ajouté une couche d’agent dans l’architecture. Nous avons intégré cette couche pour garantir les caractéristiques d’autonomie et d’intelligence de l’architecture IoT. De cette manière, les objets conservent les caractéristiques d’autonomie et d’intelligence de l’agent.
+ \item [•]	Nous allons proposer un Robot IoT basé sur la deuxième contribution. Ce robot est doté d’une  caméra routable et des capteurs intégrés. Son rôle principal est de  percevoir l’environnement à la demande des objets, autrement, il offre un service de sensing (sensing as service).
+ \item [•]	Nous allons  créer   une API qui simule une maison intelligente, cette maison intelligente consiste à connecter les différents appareils et systèmes de la maison afin qu’ils puissent être contrôlés de n’importe où et provoquer l’interaction souhaitée entre eux. Ces appareils sont des objets connectés via un réseau qui a une fenêtre sur Internet. 
+
+\end{itemize}
+ 
+ 
+\section*{Structure de la thèse}
+
+Cette thèse est organisée en cinque chapitres dont les thèmes sont donnés ci-dessous : 
+
+
+
+
+ Le premier chapitre présente l’état de l’art sur l’internet des objets en commençant par une introduction, ensuite, nous donnons la définition de l’internet des objets ainsi que l’architecture de l’internet des objets suivie des différents types des objets connecté. De plus, il présente les domaines d’applications de l’internet des objets. Ce chapitre se termine par la présentation des systèmes embarqué. 
+ 
+ 
+Le deuxième chapitre présente l’état de l’art sur la technologie du Cloud Computing en commençant par un historique, ensuite, nous donnons la définition du Cloud Computing ainsi que les différents modèles de service et de déploiements. De plus, il présente les composants essentiels pour un contrat de Cloud avec les majeurs fournisseurs du Cloud. Nous  citons à la fin de ce chapitre les avantages et les inconvénients de cette technologien.
+
+
+Le troisième chapitre donne les approches de l’IoT dans le smart house et une synthèse bibliographique sur les travaux réalisés pour résoudre le problème explicite au début. Il présente aussi les méthodes utilisées pour résoudre les problèmes de communication entre les objets. 
+
+
+Dans le quatrième chapitre, nous discutons notre contribution qui consiste à résoudre le problème de l’interopérabilité des protocoles et hétérogénéité des architectures des objets, il commence par un exemple qui montre l’utilité de cette solution. Nous  commençons par présenter l’architecture globale du système en détaillant son fonctionnement à l’aide d’un diagramme de séquence UML pour simplifier la compréhension de notre travail. Ensuite, nous  expliquons  l’architecture détaillée de chaque composant (sous-système) et son fonctionnement.
+
+
+ Le dernie chapitre concerne la mise en œuvre de notre approche, en commençant par la description des outils et l’environnement de développement. Ensuite, nous  présentons quelques interfaces qui montrent les résultats obtenus d’après l’implémentation de notre modèle, nous terminons par une discussion sur les résultats obtenus. 
+ 
+ 
+Finalement,une conclusion clôture cette thèse. Elle synthétise les contributions globales et met en évidence les perspectives de cette recherche.
+
